@@ -1,1 +1,1 @@
-# -haracterStringsC
+# CharacterStringsC
