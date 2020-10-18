@@ -5,6 +5,8 @@ int main() {
     char s[100];
     int i, id, min, count, len;
 
+    printf("\n");
+    printf("Enter string: ");
     gets(s);
     len = strlen(s);
     min = strlen(s);
@@ -15,10 +17,19 @@ int main() {
         if (s[i] != ' ') count += 1;
         else {
             if (count < min) {
-
+                min = count;
+                id = i - count;
             }
             count = 0;
         }
 
+    if (count < min) {
+        min = count;
+        id = i - count;
+    }
+    min += id;
+
+    for (i = id ; i < min ; i++)
+        putchar(s[i]);
     printf("\n");
 }

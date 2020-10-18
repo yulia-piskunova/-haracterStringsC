@@ -3,4 +3,4 @@ project(CharacterStrings C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CharacterStrings main.c)
+add_executable(CharacterStrings lab-8-task-3-strings.c)
