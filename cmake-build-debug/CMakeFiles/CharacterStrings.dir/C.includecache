@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/Tapston/Work/CharacterStrings/main.c
+/Users/Tapston/Work/lab/CharacterStrings/lab-8-task-3-strings.c
 stdio.h
 -
 string.h

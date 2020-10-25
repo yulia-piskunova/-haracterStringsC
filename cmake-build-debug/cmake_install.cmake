@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Tapston/Work/CharacterStrings
+# Install script for directory: /Users/Tapston/Work/lab/CharacterStrings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Tapston/Work/CharacterStrings/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/hk/svfw55tj2c308qf33hbtc9580000gn/T/AppTranslocation/1E448844-6968-4816-9DA3-F2CADE1BFC0E/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/hk/svfw55tj2c308qf33hbtc9580000gn/T/AppTranslocation/1E448844-6968-4816-9DA3-F2CADE1BFC0E/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Tapston/Work/CharacterStrings
+CMAKE_SOURCE_DIR = /Users/Tapston/Work/lab/CharacterStrings
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Tapston/Work/CharacterStrings/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /Users/Tapston/Work/CharacterStrings/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/hk/svfw55tj2c308qf33hbtc9580000gn/T/AppTranslocation/1E448844-6968-4816-9DA3-F2CADE1BFC0E/d/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/hk/svfw55tj2c308qf33hbtc9580000gn/T/AppTranslocation/1E448844-6968-4816-9DA3-F2CADE1BFC0E/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Tapston/Work/CharacterStrings/cmake-build-debug/CMakeFiles /Users/Tapston/Work/CharacterStrings/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/CMakeFiles /Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Tapston/Work/CharacterStrings/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ CharacterStrings/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CharacterStrings.dir/build.make CMakeFiles/CharacterStrings.dir/build
 .PHONY : CharacterStrings/fast
 
-main.o: main.c.o
+lab-8-task-3-strings.o: lab-8-task-3-strings.c.o
 
-.PHONY : main.o
+.PHONY : lab-8-task-3-strings.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CharacterStrings.dir/build.make CMakeFiles/CharacterStrings.dir/main.c.o
-.PHONY : main.c.o
+lab-8-task-3-strings.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CharacterStrings.dir/build.make CMakeFiles/CharacterStrings.dir/lab-8-task-3-strings.c.o
+.PHONY : lab-8-task-3-strings.c.o
 
-main.i: main.c.i
+lab-8-task-3-strings.i: lab-8-task-3-strings.c.i
 
-.PHONY : main.i
+.PHONY : lab-8-task-3-strings.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CharacterStrings.dir/build.make CMakeFiles/CharacterStrings.dir/main.c.i
-.PHONY : main.c.i
+lab-8-task-3-strings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CharacterStrings.dir/build.make CMakeFiles/CharacterStrings.dir/lab-8-task-3-strings.c.i
+.PHONY : lab-8-task-3-strings.c.i
 
-main.s: main.c.s
+lab-8-task-3-strings.s: lab-8-task-3-strings.c.s
 
-.PHONY : main.s
+.PHONY : lab-8-task-3-strings.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CharacterStrings.dir/build.make CMakeFiles/CharacterStrings.dir/main.c.s
-.PHONY : main.c.s
+lab-8-task-3-strings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CharacterStrings.dir/build.make CMakeFiles/CharacterStrings.dir/lab-8-task-3-strings.c.s
+.PHONY : lab-8-task-3-strings.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CharacterStrings"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lab-8-task-3-strings.o"
+	@echo "... lab-8-task-3-strings.i"
+	@echo "... lab-8-task-3-strings.s"
 .PHONY : help
 
 

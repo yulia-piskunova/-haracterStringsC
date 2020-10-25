@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CharacterStrings.dir/main.c.o"
+  "CMakeFiles/CharacterStrings.dir/lab-8-task-3-strings.c.o"
   "CharacterStrings"
   "CharacterStrings.pdb"
 )
