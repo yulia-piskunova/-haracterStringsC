@@ -1,3 +1,3 @@
-/Users/Tapston/Work/CharacterStrings/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Tapston/Work/CharacterStrings/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Tapston/Work/CharacterStrings/cmake-build-debug/CMakeFiles/CharacterStrings.dir
+/Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/CMakeFiles/CharacterStrings.dir

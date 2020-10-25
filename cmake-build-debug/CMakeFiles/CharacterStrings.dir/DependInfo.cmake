@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Tapston/Work/CharacterStrings/main.c" "/Users/Tapston/Work/CharacterStrings/cmake-build-debug/CMakeFiles/CharacterStrings.dir/main.c.o"
+  "/Users/Tapston/Work/lab/CharacterStrings/lab-8-task-3-strings.c" "/Users/Tapston/Work/lab/CharacterStrings/cmake-build-debug/CMakeFiles/CharacterStrings.dir/lab-8-task-3-strings.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
